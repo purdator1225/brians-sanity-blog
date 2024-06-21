@@ -12,6 +12,8 @@ async function getData(slug:string){
     
 }
 
+export const revalidate = 30
+
 
 async function BlogArticle({params}:{params:{slug:string}}) {
 
